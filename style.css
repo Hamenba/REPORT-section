@@ -1,0 +1,81 @@
+.root{
+    margin: 0px;
+    padding: 0px;
+}
+
+.wrapper{    
+    display: flex;
+    flex-direction: column;    
+    background-color: white;
+    height: 100vh;
+    width:99vw;
+}
+
+.box1{
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    /* background-color: rgba(57, 118, 199, 0.637); */
+    height: 70px;
+    width: 200px;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 35px;
+    color: black;
+    backdrop-filter: blur(80px);
+    background-color: rgb(218, 242, 251);
+    border: 2px solid rgb(8, 8, 167);
+}
+
+table {
+    background-image: linear-gradient(to right, rgb(244, 178, 58), rgb(253, 166, 4));
+    color: white;
+    position: fixed;
+    top: 300px;
+    right: 90px;
+    height: 365px;
+    width: 280px;
+    border-radius: 10px;
+    border: 1px solid orange;
+    margin-top: -9rem;
+    margin-right: 1rem;
+}
+
+.MT{
+    font-size: 1.5rem;
+    color: white;
+    padding-left: 1.7rem;
+    font-variant: small-caps;
+    font-weight: bolder;
+}
+
+.month{
+    padding-left: 2.3rem;
+    font-size: 1.1rem;
+    color: white;
+}
+
+.amt{
+    padding-left: 2.1rem;
+    font-size: 1.1rem;
+    color: white;
+}
+
+.box3{
+    background-color: whitesmoke;
+    width: 60%;
+    height: 23rem;
+    margin-top: 3rem;
+    margin-left: 5rem;
+    border-radius: 10px;
+}
+
+.progress-bar-container{
+    width: 60%;
+    height: 2.8rem;
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
